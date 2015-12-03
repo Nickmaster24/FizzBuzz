@@ -9,6 +9,7 @@ public class FizzBuzzer {
     public static void main(String[] args) {
         FizzBuzzer testObject = new FizzBuzzer();
         testObject.classicFizzBuzz();
+        testObject.alternateFizzBuzz();
         testObject.variableFizzBuzz(1, 100, 3, 5);
         testObject.variableFizzBuzz(-30, 30, 2, 5);
     }
@@ -30,6 +31,22 @@ public class FizzBuzzer {
                 result = Integer.toString(i);
             }
             System.out.println(result);
+        }
+    }
+
+    public void alternateFizzBuzz() {
+        for (int i = 1; i < 101; i++) {
+            if (i % 3 == 0) {
+                if (i % 5 == 0) {
+                    System.out.println("FizzBuzz");
+                } else {
+                    System.out.println("Fizz");
+                }
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(i);
+            }
         }
     }
 
