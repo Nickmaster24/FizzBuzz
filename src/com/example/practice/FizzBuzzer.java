@@ -6,8 +6,6 @@ package com.example.practice;
  */
 public class FizzBuzzer {
 
-    private boolean test;
-
     public static void main(String[] args) {
         FizzBuzzer testObject = new FizzBuzzer();
         testObject.classicFizzBuzz();
@@ -16,7 +14,7 @@ public class FizzBuzzer {
     }
 
     public FizzBuzzer() {
-        test = false;
+
     }
 
     public void classicFizzBuzz() {
