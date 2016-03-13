@@ -1,7 +1,7 @@
-package com.example.fizzbuzz;
+package in.nickma.fizzbuzz;
 
 /**
- * @author nickm_000
+ * @author Nick Main
  * @since 12/3/2015.
  */
 public class FizzBuzzer {
@@ -12,10 +12,6 @@ public class FizzBuzzer {
         testObject.alternateFizzBuzz();
         testObject.variableFizzBuzz(1, 100, 3, 5);
         testObject.variableFizzBuzz(-30, 30, 2, 5);
-    }
-
-    public FizzBuzzer() {
-
     }
 
     public void classicFizzBuzz() {
